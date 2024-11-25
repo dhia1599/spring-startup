@@ -18,3 +18,5 @@ Cette mise à jour améliore les performances des requêtes SQL grâce à :
 ### 3. Résolution de Query N+1
 - Utilisation de `@EntityGraph` pour charger les relations en une seule requête optimisée.
 - Exemple réalisé : Charger les projets et leurs tâches associées avec une seule requête SQL.
+
+### 4. Vue matérialisée pour compter le nombre des tâches par projet
