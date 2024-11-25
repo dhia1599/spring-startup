@@ -14,3 +14,7 @@ Cette mise à jour améliore les performances des requêtes SQL grâce à :
 - **`projet.name`** : Optimise les recherches par nom de projet.
 - **`task.projet_id`** : Accélère les jointures entre tâches et projets.
 - **`user.email`** : Améliore les recherches d'utilisateur par email.
+
+### 3. Résolution de Query N+1
+- Utilisation de `@EntityGraph` pour charger les relations en une seule requête optimisée.
+- Exemple réalisé : Charger les projets et leurs tâches associées avec une seule requête SQL.

@@ -19,7 +19,8 @@ public class ProjetService {
     private TaskRepository taskRepository;
 
     public List<ProjetDto> findAll() {
-        return projetMapper.toDtos(projetRepository.findAll());
+        List<Projet> projets = this.projetRepository.findAllWithTasks();
+        return this.projetMapper.toDtos(projets);
     }
 
     public ProjetDto findById(long id) {
