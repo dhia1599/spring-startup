@@ -9,7 +9,7 @@ import lombok.Setter;
 import java.util.Set;
 
 @Entity
-@Table(name = "projet")
+@Table(name = "projet", indexes = {@Index(name = "idx_projet_name", columnList = "name")})
 @Getter
 @Setter
 @AllArgsConstructor
