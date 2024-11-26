@@ -20,3 +20,5 @@ Cette mise à jour améliore les performances des requêtes SQL grâce à :
 - Exemple réalisé : Charger les projets et leurs tâches associées avec une seule requête SQL.
 
 ### 4. Vue matérialisée pour compter le nombre des tâches par projet
+
+### 5. Intégrer la pagination sur les endpoints des projets et des tasks
